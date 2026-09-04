@@ -1661,12 +1661,12 @@ summary:focus-visible {
 
 @media (max-width: 980px) {
   html {
-    scroll-padding-top: 112px;
+    scroll-padding-top: 120px;
   }
 
   .nav-wrap {
-    height: 104px;
-    min-height: 104px;
+    height: 112px;
+    min-height: 112px;
   }
 
   .brand-logo {
@@ -1677,7 +1677,7 @@ summary:focus-visible {
 
   .site-nav {
     position: fixed;
-    top: 104px;
+    top: 112px;
     right: 0;
     left: 0;
 
@@ -1792,8 +1792,8 @@ summary:focus-visible {
   }
 
   .nav-wrap {
-    height: 92px;
-    min-height: 92px;
+    height: 100px;
+    min-height: 100px;
   }
 
   .brand-logo {
@@ -1803,7 +1803,7 @@ summary:focus-visible {
   }
 
   .site-nav {
-    top: 92px;
+    top: 100px;
   }
 
   h1 {
