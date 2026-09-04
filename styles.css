@@ -223,8 +223,8 @@ h3 {
   align-items: center;
   justify-content: space-between;
 
-  height: 144px;
-  min-height: 144px;
+  height: 160px;
+  min-height: 160px;
 }
 
 .brand {
@@ -235,15 +235,14 @@ h3 {
 
 .brand-logo {
   display: block;
-
-  width: auto;
+  width: 320px;
   height: auto;
-  max-width: 300px;
-  max-height: 124px;
+  max-width: none;
 
   flex-shrink: 0;
   object-fit: contain;
-  transform: translateY(4px);
+
+  transform: translateY(6px);
 }
 
 .site-nav {
@@ -1662,25 +1661,24 @@ summary:focus-visible {
 
 @media (max-width: 980px) {
   html {
-    scroll-padding-top: 132px;
+    scroll-padding-top: 138px;
   }
 
   .nav-wrap {
-    height: 124px;
-    min-height: 124px;
+    height: 130px;
+    min-height: 130px;
   }
 
   .brand-logo {
-    width: auto;
+    width: 275px;
     height: auto;
-    max-width: 255px;
-    max-height: 104px;
-    transform: translateY(2px);
+    max-width: none;
+    transform: translateY(4px);
   }
 
   .site-nav {
     position: fixed;
-    top: 124px;
+    top: 130px;
     right: 0;
     left: 0;
 
@@ -1779,7 +1777,7 @@ summary:focus-visible {
 
 @media (max-width: 680px) {
   html {
-    scroll-padding-top: 116px;
+    scroll-padding-top: 124px;
   }
 
   body {
@@ -1795,20 +1793,19 @@ summary:focus-visible {
   }
 
   .nav-wrap {
-    height: 108px;
-    min-height: 108px;
+    height: 116px;
+    min-height: 116px;
   }
 
   .brand-logo {
-    width: auto;
+    width: 235px;
     height: auto;
-    max-width: 215px;
-    max-height: 90px;
-    transform: none;
+    max-width: none;
+    transform: translateY(2px);
   }
 
   .site-nav {
-    top: 108px;
+    top: 116px;
   }
 
   h1 {
