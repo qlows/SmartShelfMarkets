@@ -38,7 +38,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 136px;
+  scroll-padding-top: 152px;
 }
 
 body {
@@ -223,8 +223,8 @@ h3 {
   align-items: center;
   justify-content: space-between;
 
-  height: 128px;
-  min-height: 128px;
+  height: 144px;
+  min-height: 144px;
 }
 
 .brand {
@@ -236,13 +236,14 @@ h3 {
 .brand-logo {
   display: block;
 
-  width: 300px;
+  width: auto;
   height: auto;
-  max-width: none;
+  max-width: 300px;
+  max-height: 124px;
 
   flex-shrink: 0;
   object-fit: contain;
-  transform: translateY(6px);
+  transform: translateY(4px);
 }
 
 .site-nav {
@@ -1057,7 +1058,7 @@ h3 {
 }
 
 .product-body li::before {
-  content: "✓";
+  content: "âœ“";
 
   position: absolute;
   top: 0;
@@ -1304,7 +1305,7 @@ h3 {
 }
 
 .about-points span::before {
-  content: "✓";
+  content: "âœ“";
 
   position: absolute;
   left: 16px;
@@ -1661,23 +1662,25 @@ summary:focus-visible {
 
 @media (max-width: 980px) {
   html {
-    scroll-padding-top: 120px;
+    scroll-padding-top: 132px;
   }
 
   .nav-wrap {
-    height: 112px;
-    min-height: 112px;
+    height: 124px;
+    min-height: 124px;
   }
 
   .brand-logo {
-    width: 255px;
+    width: auto;
     height: auto;
-    max-width: none;
+    max-width: 255px;
+    max-height: 104px;
+    transform: translateY(2px);
   }
 
   .site-nav {
     position: fixed;
-    top: 112px;
+    top: 124px;
     right: 0;
     left: 0;
 
@@ -1776,7 +1779,7 @@ summary:focus-visible {
 
 @media (max-width: 680px) {
   html {
-    scroll-padding-top: 100px;
+    scroll-padding-top: 116px;
   }
 
   body {
@@ -1792,18 +1795,20 @@ summary:focus-visible {
   }
 
   .nav-wrap {
-    height: 100px;
-    min-height: 100px;
+    height: 108px;
+    min-height: 108px;
   }
 
   .brand-logo {
-    width: 215px;
+    width: auto;
     height: auto;
-    max-width: none;
+    max-width: 215px;
+    max-height: 90px;
+    transform: none;
   }
 
   .site-nav {
-    top: 100px;
+    top: 108px;
   }
 
   h1 {
