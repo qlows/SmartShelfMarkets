@@ -38,7 +38,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 124px;
+  scroll-padding-top: 136px;
 }
 
 body {
@@ -223,8 +223,8 @@ h3 {
   align-items: center;
   justify-content: space-between;
 
-  height: 116px;
-  min-height: 116px;
+  height: 128px;
+  min-height: 128px;
 }
 
 .brand {
@@ -242,6 +242,7 @@ h3 {
 
   flex-shrink: 0;
   object-fit: contain;
+  transform: translateY(6px);
 }
 
 .site-nav {
